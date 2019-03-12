@@ -13,7 +13,7 @@ def lambda_handler(event, context):
 
   sc.api_call(
   "chat.postMessage",
-  channel="general",
+  channel="everyone",
   text="New EC2 is running! :rocket:"
   )
 
